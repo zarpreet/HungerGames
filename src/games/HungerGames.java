@@ -161,7 +161,6 @@ public void addDistrictToGame(TreeNode root, District newDistrict) {
         }
     }
     districts.remove(newDistrict);
-    System.out.println(districts.size());
     // If the district ID matches the root's district ID, it's already in the tree.
     // You can choose to handle that case accordingly.
 }
